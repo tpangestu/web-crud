@@ -1,0 +1,142 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(https://assets.universitas123.com/images/11564/WhatsApp%20Image%202021-08-17%20at%2014.55.30.jpeg);
+    background-size: cover;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color:gainsboro;
+    opacity: 95%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+}
+th {
+    background-color: lightcoral;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    font-size: 2.5em;
+    font-weight: 800;
+    background-color: lightcoral;
+    border-radius: 5px;
+    opacity: 90%;
+
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+.form-add {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    gap: 10px;
+    top: 25%;
+    left: 30%;
+    background-color: grey;
+    width: 460px;
+    padding: 30px 10px 30px 10px;
+    border-radius: 10px;
+}
+
+.name_input{
+    width:90%;
+    margin: auto;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.npm_input{
+    width:90%;
+    margin: auto;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.kelas_input{
+    width:90%;
+    margin: auto;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.jurusan_input{
+    width:90%;
+    margin: auto;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.email_input{
+    width: 90%;
+    margin: auto;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn_save{
+    cursor: pointer;
+    color: #ffff;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    margin: auto;
+    background-color: green;
+    border: none;
+}
+
+.btn_save:hover{
+    background-color: blue;
+}
+
+.p_add{
+    font-size: 12px;
+    margin: 0;
+}
+.btn_add{
+    padding: 5px 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    font-size: 40px;
+    border: 2px solid white;
+}
+
+.btn_edit {
+    font-size: 25px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    background-color: green;
+}
+.btn_del {
+    font-size: 25px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    background-color: red;
+}
+
+.btn_add:hover {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
